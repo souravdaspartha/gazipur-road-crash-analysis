@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Restricted project inputs
+Road_Crash_Data.csv
+gcc-road.*
+GCC_BND.*
+major_roads.geojson
+
+# Generated outputs containing record-level locations
+accident_hotspot_map.html
+accident_hotspot_animated.html
+accident_hotspot_embed.html
+hotspot_clusters.csv
+top_5_hotspots.csv
